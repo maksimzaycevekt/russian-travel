@@ -1,0 +1,27 @@
+.footer {
+  margin: 92px auto 24px;
+  max-width: 1184px;
+  max-height: 18px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279.99px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023.9px) {
+  .footer {
+    max-width: 720px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767.9px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin: 64px 16px 24px;
+    max-width: 186px;
+    max-height: 310px;
+  }
+}
