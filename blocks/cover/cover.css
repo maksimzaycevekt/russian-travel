@@ -4,7 +4,7 @@
   position: relative;
   max-width: 1184px;
   width: 100%;
-  height: 740px;
+  min-height: 740px;
   margin: 0 auto;
   background-image: url(../../images/backgroung-cover.png);
   background-size: cover;
@@ -34,21 +34,21 @@
 @media all and (min-width: 1024px) and (max-width: 1279.9px) {
   .cover {
     max-width: 1124px;
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 1023.9px) {
   .cover {
     max-width: 768px;
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media all and (min-width: 320px) and (max-width: 767.9px) {
   .cover {
     max-width: 320px;
-    height: 200px;
+    min-height: 200px;
   }
 }
 
