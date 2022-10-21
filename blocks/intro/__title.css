@@ -1,7 +1,7 @@
 .intro__title {
   margin: 0 0 40px;
   max-width: 690px;
-  max-height: 58px;
+  min-height: 58px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
@@ -14,7 +14,7 @@
   .intro__title {
     margin: 0 16px 40px;
     width: minmax(288px, 690px);
-    max-height: 70px;
+    min-height: 70px;
     font-size: 32px;
     line-height: 35px;
   }

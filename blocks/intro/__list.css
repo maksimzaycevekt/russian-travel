@@ -10,5 +10,6 @@
   .intro__list {
     margin: 0 16px;
     width: minmax(288px, 690px);
+    max-height: 90px;
   }
 }

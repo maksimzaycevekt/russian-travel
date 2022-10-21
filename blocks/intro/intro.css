@@ -3,7 +3,7 @@
   flex-flow: column nowrap;
   justify-content: flex-start;
   max-width: 984px;
-  max-height: 429px;
+  min-height: 429px;
   margin: 92px auto 92px;
 }
 
@@ -16,7 +16,7 @@
 @media all and (min-width: 768px) and (max-width: 1023.9px) {
   .intro {
     max-width: 720px;
-    max-height: 429px;
+    min-height: 429px;
     margin: 88px auto 88px;
   }
 }
