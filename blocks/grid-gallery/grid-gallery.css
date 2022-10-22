@@ -8,7 +8,7 @@
   gap: 16px;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1279.99px) {
+@media all and (min-width: 1024px) and (max-width: 1279.9px) {
   .grid-gallery {
     max-width: 928px;
     gap: 14px;

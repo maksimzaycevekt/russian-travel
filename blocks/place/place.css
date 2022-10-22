@@ -2,35 +2,32 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr );
   grid-template-rows: repeat(1, 1fr);
-  gap:48px 40px;
+  gap:48px 20px;
   margin: 0 auto 80px;
   max-width: 984px;
-  min-height: 660px;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1279.99px) {
+@media all and (min-width: 1024px) and (max-width: 1279.9px) {
   .place {
+    gap: 48px 20px;
     max-width: 928px;
-    min-height: 640px;
-    gap:48px 32px;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 1023.9px) {
   .place {
+    margin: 0 auto 73px;
+    gap: 44px 14px;
     max-width: 720px;
-    min-height: 581px;
-    gap:48px 28px;
   }
 }
 
 @media all and (min-width: 320px) and (max-width: 767.9px) {
   .place {
+    margin: 0 auto 50px;
+    max-width: 320px;
     grid-template-columns: repeat(auto-fit, 320px);
     grid-template-rows: repeat(1, 1fr);
-    max-width: 320px;
-    min-height: 1042px;
-    gap:32;
-    margin: 0 auto 80px;
+    gap: 32px;
   }
 }

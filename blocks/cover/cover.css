@@ -1,6 +1,8 @@
 .cover {
   display: flex;
   flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
   position: relative;
   max-width: 1184px;
   width: 100%;

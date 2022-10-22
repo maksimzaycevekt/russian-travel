@@ -1,8 +1,7 @@
 .place__title {
   margin: 0;
   max-width: 460px;
-  min-height: 152px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -12,28 +11,17 @@
 
 @media all and (min-width: 768px) and (max-width: 1023.9px) {
   .place__title {
-    max-width: 340px;
-    min-height: 92px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
+    max-width: 330px;
     font-size: 42px;
     line-height: 46px;
-    color: #FFFFFF;
   }
 }
 
 @media all and (min-width: 320px) and (max-width: 767.9px) {
   .place__title {
-    max-width: 288px;
-    min-height: 35px;
     margin: 0 16px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
-    color: #FFFFFF;
   }
 }
 
