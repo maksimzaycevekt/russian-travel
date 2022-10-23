@@ -1,8 +1,7 @@
 .footer__copyright {
-  display: inline-block;
   align-self: center;
-  flex-grow: 1;
   text-align: end;
+  flex-grow: 1;
   margin: 0;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;

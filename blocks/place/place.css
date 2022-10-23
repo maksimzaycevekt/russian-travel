@@ -9,7 +9,6 @@
 
 @media all and (min-width: 1024px) and (max-width: 1279.9px) {
   .place {
-    gap: 48px 20px;
     max-width: 928px;
   }
 }

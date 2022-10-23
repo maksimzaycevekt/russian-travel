@@ -9,8 +9,8 @@
   color: #FFFFFF;
 }
 
-.place__paragraph:first-child {
-  margin: 0 0 26px;
+.place__paragraph:nth-child(n+2) {
+  margin-top: 26px;
 }
 
 @media all and (min-width: 768px) and (max-width: 1023.9px) {
@@ -27,7 +27,7 @@
     margin: 0 16px;
   }
 
-  .place__paragraph:first-child {
-    margin: 0 16px 25px;
+  .place__paragraph:nth-child(n+2) {
+    margin-top: 25px;
   }
 }

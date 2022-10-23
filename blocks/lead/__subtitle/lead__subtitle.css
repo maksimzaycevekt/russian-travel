@@ -11,13 +11,13 @@
 }
 @media all and (min-width: 1024px) and (max-width: 1277.9px) {
   .lead__subtitle {
-    margin: 32px auto 56px;
+    margin-bottom: 56px;
 
   }
 }
 @media all and (min-width: 768px) and (max-width: 1023.9px) {
   .lead__subtitle {
-    margin: 32px auto 56px;
+    margin-bottom: 56px;
   }
 }
 
