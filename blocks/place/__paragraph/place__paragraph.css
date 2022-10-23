@@ -13,17 +13,15 @@
   margin-top: 26px;
 }
 
-@media all and (min-width: 768px) and (max-width: 1023.9px) {
+@media all and (max-width: 1023.9px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26.08px;
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 767.9px) {
+@media all and (max-width: 767.9px) {
   .place__paragraph {
-    font-size: 16px;
-    line-height: 26.08px;
     margin: 0 16px;
   }
 
